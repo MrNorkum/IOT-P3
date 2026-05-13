@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: app
+  name: playground
 spec:
   selector:
-    app: app
+    app: playground
   ports:
   - port: 8888
     targetPort: 8888
